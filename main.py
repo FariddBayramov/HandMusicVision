@@ -58,8 +58,8 @@ class MusicApp:
         pygame.mixer.init()
         self.note_sounds = {}
         for index, file in self.notes.items():
-            path_mp3 = f"Notes/{file}.mp3"
-            path_wav = f"Notes/{file}.wav"
+            path_mp3 = f"notes/{file}.mp3"
+            path_wav = f"notes/{file}.wav"
             if os.path.exists(path_mp3) and not os.path.exists(path_wav):
                 sound = AudioSegment.from_mp3(path_mp3)
                 sound.export(path_wav, format="wav")
