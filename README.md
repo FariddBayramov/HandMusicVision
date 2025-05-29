@@ -11,6 +11,9 @@ A real-time hand gesture recognition system that plays musical notes based on ha
 * **Musical Note Playback:** Maps detected gestures to musical notes (A-G), played via Pygame. Just press **`P`**!
 * **Melody Recording & Playback:** Record sequences of notes you play and save them. You can then play back your recorded melodies.
 * **Interactive GUI:** A user-friendly Tkinter interface displays the live camera feed, recognized gestures, and provides controls for camera, recording, and data collection.
+
+ ![image](https://github.com/user-attachments/assets/e4908f82-d0db-4e90-930b-3163642cc632)
+ 
 * **Gesture Data Collection:** A built-in feature to collect new hand gesture data, allowing you to train your model with custom gestures.
 
   
